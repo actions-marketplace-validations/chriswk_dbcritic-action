@@ -2,7 +2,7 @@ name: "DBCritic"
 description: "Run dbcritic against your database"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "ghcr.io/chriswk/dbaction:latest"
 branding:
   icon: "database"
   color: "green"
