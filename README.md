@@ -10,7 +10,7 @@ dbcriticrc directives (silence certain checks) Default `` (output all checks).
 
 ## Example usage
 
-uses: chriswk/dbcritic-action@
+uses: chriswk/dbcritic-action@v1
 env:
     PGPASS: 'password'
     PGUSER: 'dbuser'
