@@ -3,3 +3,6 @@ description: "Run dbcritic against your database"
 runs:
   using: "docker"
   image: "Dockerfile"
+branding:
+  icon: "database"
+  color: "green"
