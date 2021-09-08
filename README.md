@@ -4,7 +4,7 @@ This action runs dbcritic (https://github.com/channable/dbcritic) against your P
 
 ## Example usage
 
-uses: chriswk/dbcritic-action@v1
+uses: chriswk/dbcritic-action@v3
 env:
     PGPASS: 'password'
     PGUSER: 'dbuser'
