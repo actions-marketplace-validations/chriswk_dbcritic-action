@@ -1,1 +1,1 @@
-FROM ghcr.io/chriswk/dbaction:latest
+FROM ghcr.io/chriswk/dbaction:v0.1
