@@ -1,0 +1,1 @@
+FROM ghcr.io/chriswk/dbaction:latest
