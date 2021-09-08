@@ -1,1 +1,1 @@
-FROM ghcr.io/chriswk/dbaction:v0.1
+FROM ghcr.io/chriswk/dbcritic:v0.1
