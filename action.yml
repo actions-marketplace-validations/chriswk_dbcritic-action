@@ -1,0 +1,13 @@
+name: "DBCritic"
+description: "Run dbcritic against your database"
+inputs:
+  dbcriticrc:
+    description: RC commands for dbcritic. Turn off specific checks
+    required: false
+    default: ""
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.dbcriticrc }}
